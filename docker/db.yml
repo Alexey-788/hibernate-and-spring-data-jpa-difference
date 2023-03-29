@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hibernate_spring_data_db:
+    image: 'postgres:14.4'
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_DB=hibernate_spring_data_jpa
+      - POSTGRES_PASSWORD=password
+    ports:
+    - '5432:5432'

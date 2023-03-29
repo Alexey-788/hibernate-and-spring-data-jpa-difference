@@ -6,7 +6,12 @@
 
     <groupId>com.alex788.hibernate</groupId>
     <artifactId>hibernate-and-spring-data-jpa-difference</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>hibernate-example</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
